@@ -1,0 +1,14 @@
+{
+
+  "creatureName": "Mahoraga",
+  "creatureHealth": 3000,
+  "weapons": {
+    "numWeapons": 4,
+    "weapons": [
+      {"name": "Fist", "damage": 200},
+      {"name": "Blade", "damage": 500},
+      {"name": "Leg", "damage": 300}
+    ]
+  },
+  "isAlive": true
+}
