@@ -700,6 +700,8 @@ public class Tutorial {
             // int combination = pogg - zonn; // returns an error
 
             // Two Casting Methods
+
+            // *When doing arithmetic with two different datatypes, the smaller will always get promoted to the larger
             // Implicit Cast, int pogg gets turned into a float for the operation
             float combo = pogg - zonn; // returns -10.64
 
