@@ -500,7 +500,11 @@ public class Tutorial {
         // If & Switch Statements
 
                 // If Statements
-                    // ** If and if statement is missing brackets, it will still run the first line of code **
+                    // ** If and if statement is missing brackets, it will still run the first line of code using the if statment, then treat the following lines as normal **
+                    if(1>2)
+                        System.out.println("Line 1"); // This line will be run under the if statement
+                        System.out.println("Line 2"); // This line will be run as a regular line
+        
                     boolean gem = true;
                     // Code within if statements ONLY runs if the boolean variable inside it is true
                     // Takes in boolean variable(s) and checks its true or false value, returning the result in a boolean
