@@ -500,7 +500,7 @@ public class Tutorial {
         // If & Switch Statements
 
                 // If Statements
-
+                    // ** If and if statement is missing brackets, it will still run the first line of code **
                     boolean gem = true;
                     // Code within if statements ONLY runs if the boolean variable inside it is true
                     // Takes in boolean variable(s) and checks its true or false value, returning the result in a boolean
