@@ -816,12 +816,12 @@ public class Tutorial {
                 // returns a boolean value
 
         // Arrays
-            // Basically a list
+            // Basically a list, items within are called "array elements"
 
             // String Arrays
                 // String[] name = new String[Number of Items in list];
                 // name[Index Number (starts at 0)] = "string"
-                String[] quest = new String[3]; // Creates new list with length 3 
+                String[] quest = new String[3]; // Creates new list with length 3, determines amount of elements, not max index
                 quest[0] = "Slay Goblin";
                 quest[1] = "Save Princess";
                 quest[2] = "Slay Boss";
