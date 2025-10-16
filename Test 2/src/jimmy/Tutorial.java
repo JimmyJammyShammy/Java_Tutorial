@@ -64,7 +64,7 @@ public class Tutorial {
                     // .replaceFirst, line: 784
                 // CharAt, line: 787
                 // Equals, line: 797
-            // Arrays, line: 812
+            // Arrays, line: 818
                 // String Arrays, line: 815
                 // Numerical Arrays, line: 848
             // Methods, line: 861
@@ -821,7 +821,7 @@ public class Tutorial {
             // String Arrays
                 // String[] name = new String[Number of Items in list];
                 // name[Index Number (starts at 0)] = "string"
-                String[] quest = new String[3];
+                String[] quest = new String[3]; // Creates new list with length 3 
                 quest[0] = "Slay Goblin";
                 quest[1] = "Save Princess";
                 quest[2] = "Slay Boss";
@@ -833,22 +833,22 @@ public class Tutorial {
 
                 System.out.println("Quest: " + quest[0] + " | Reward: " + rewards[0]); // returns Quest: Slay Goblin | Reward: 10 Gold
 
-                for(int i = 0; i < 4; i++){
-                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-3
+                for(int i = 0; i < 3; i++){
+                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-2 with corresponding rewards 0-2
                 }
 
                 // Would not work since index amount(6) is larger than the array(3), gives ArrayIndexOutOfBoundsException
                 for(int i = 0; i < 6; i++){
-                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-3
+                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]);
                 }
 
-                // Instead we can use variable.length to get the length of the array
-                for(int i = 0; i < quest.length; i++){
-                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-3
+                // Instead we can use variable.length - 1 to get the length of the array, then subtract 1 to get the index length
+                for(int i = 0; i < quest.length - 1; i++){
+                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-2
                 }
-                // Either variable can be used  as long as they have the same array length
-                for(int i = 0; i < rewards.length; i++){
-                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-3
+                // Either variable can be used as long as they have the same array length
+                for(int i = 0; i < rewards.length - 1; i++){
+                    System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-2
                 }
 
                 // For Each Loop For An Array
@@ -910,7 +910,7 @@ public class Tutorial {
             // Original method with the array must pass the array variables into this method's parameters so it can reference it
             public static void questsAndRewards(String[] quest, String[] rewards) // The parameters define two arrays with the same names as in the other method, allowing that method to pass the arrays into this method.
             {
-                for(int i = 0; i < quest.length; i++){
+                for(int i = 0; i < quest.length - 1; i++){
                     System.out.println("Quests: " + quest[i] + " | " + rewards[i]);// returns 3 quests with their rewards
                 }
             }
