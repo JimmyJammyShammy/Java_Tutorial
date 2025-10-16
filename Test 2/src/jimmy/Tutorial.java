@@ -842,12 +842,12 @@ public class Tutorial {
                     System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]);
                 }
 
-                // Instead we can use variable.length - 1 to get the length of the array, then subtract 1 to get the index length
-                for(int i = 0; i < quest.length - 1; i++){
+                // Instead we can use variable.length to get the length of the array, will iterate until index is 1 less than the length
+                for(int i = 0; i < quest.length; i++){
                     System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-2
                 }
                 // Either variable can be used as long as they have the same array length
-                for(int i = 0; i < rewards.length - 1; i++){
+                for(int i = 0; i < rewards.length; i++){
                     System.out.println("Quest: " + quest[i] + " | Reward: " + rewards[i]); // returns quest 0-3 with corresponding rewards 0-2
                 }
 
