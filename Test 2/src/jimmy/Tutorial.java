@@ -1,6 +1,7 @@
 package jimmy;
 
 // This is needed for the Scanner input
+import java.util.Scanner;
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
