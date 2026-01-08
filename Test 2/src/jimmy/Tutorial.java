@@ -47,18 +47,18 @@ public class Tutorial {
             // Loops, line: 551
                 // For Loop, line: 553
                 // While Loop, line: 590
-            // EXERCISE 1: Simple Calculator, line: 614
-                // Solution, line: 631
-            // Ternary Operator, line: 680
-            // Casting Variables, line: 694
-                // Implicit Cast, line: 703
-                // Explicit Cast, line: 706
-            // String & String Methods, line: 723
-                // Quotation Marks, line: 726
-                // Concatenation, line: 732
-                // Uppercase & Lowercase (.toUpperCase) (.toLowerCase), line: 750
-                // Contain, line: 760
-                // Replace, line: 768
+            // EXERCISE 1: Simple Calculator, line: 618
+                // Solution, line: 635
+            // Ternary Operator, line: 684
+            // Casting Variables, line: 698
+                // Implicit Cast, line: 709
+                // Explicit Cast, line: 712
+            // String & String Methods, line: 729
+                // Quotation Marks, line: 732
+                // Concatenation, line: 738
+                // Uppercase & Lowercase (.toUpperCase) (.toLowerCase), line: 756
+                // Contain, line: 774
+                // Replace, line: 776
                     // .replace, line: 775
                     // .replaceAll, line: 781
                     // .replaceFirst, line: 784
@@ -80,10 +80,10 @@ public class Tutorial {
                 // Static Variables, line: 1119
                 // Static Methods, line: 1127
             // Inheritance & Polymorphism, line: 1136
-            // Abstract Classes & Interfaces, line: 1149
-                // Abstract Class, line: 1149
-                // Interface, line: 1159
-            // Anonymous Classes, line: 1192
+            // Abstract Classes & Interfaces, line: 1154
+                // Abstract Class, line: 1155
+                // Interface, line: 1165
+            // Anonymous Classes, line: 1198
             // Exercise 3, line: 1223
             // Enums & Advanced Enums, line: 1231
                 // Enums, line: 1232
